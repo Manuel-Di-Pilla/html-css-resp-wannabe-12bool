@@ -27,13 +27,37 @@ img{
   padding: 30px;
 }
 @media screen and (max-width: 992px) and (min-width: 768px){
+  h1{
+    font-size: 35px;
+  }
+  h2{
+    font-size: 30px;
+  }
+  p{
+    font-size: 20px;
+  }
   .container.footer [class*="col-"],
   .container.main .col-md-12:last-child{
     padding-top: 30px;
+  }
+  img{
+    height: 250px;
   }
 }
 @media screen and (max-width: 768px){
   p{
     margin-bottom: 30px;
+  }
+  img{
+    height: 300px;
+  }
+  h1{
+    font-size: 40px;
+  }
+  h2{
+    font-size: 35px;
+  }
+  p{
+    font-size: 25px;
   }
 }
